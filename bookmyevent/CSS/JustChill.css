@@ -1,0 +1,303 @@
+body {
+}
+
+.available {
+    cursor: pointer;
+}
+
+#dellaCalendarTable {
+    border-spacing: 0px;
+}
+
+.dellaNavMenu:after {
+    border-top: 7px solid white;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.columnhead {
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    background-color: #0093D1;
+    color: white;
+    border: 1px solid rgb(8, 135, 189);
+    font-style: normal;
+    font-family: Verdana;
+}
+
+.weekend {
+     text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    background-color: rgb(0, 91, 130);
+    color: white;
+    border: 1px solid rgb(0, 75, 107);
+    font-style: normal;
+    font-family: Verdana;
+}
+
+    .weekend span {
+        color: white;
+    }
+
+    .weekend div {
+        color: white;
+    }
+
+
+.daySpan {
+    width: 93px;
+}
+
+.cell {
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+    text-align: center;
+}
+
+.booknowTxt {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+.availabilityTxt {
+    color: #008000;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+#dellaCalendarCover {
+    width: 99%;
+    height: 125px;
+    overflow: hidden;
+}
+
+.DellaLogo {
+    width: 40%;
+    z-index: 5;
+    position: absolute;
+    top: -0px;
+}
+
+    .DellaLogo img {
+        width: 100%;
+    }
+
+.dellaCalendarTable {
+    border-spacing: 0px;
+}
+
+    .dellaCalendarTable tr td {
+        color: black;
+        padding: 10px;
+    }
+
+.DellaContent {
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 98%;
+    border-top: 0px;
+    background-color: white;
+    padding-bottom: 10px;
+    min-height: 50px;
+    clear: left;
+}
+
+.contentHeader {
+    padding: 5px;
+    font-family: verdana;
+    background-color: #E6850E;
+    border-bottom: 1px dashed white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    clear: left;
+}
+
+.venueBox {
+    float: left;
+    width: 50%;
+}
+
+    .venueBox p {
+        font-family: Verdana;
+        font-size: 15px;
+        line-height: 3;
+    }
+
+
+.dellaNav {
+    background-color: #FFFFFF;
+    border: 1px solid #0093D1;
+    display: block;
+}
+
+.dellaNavMenu {
+    background-color: #0093D1;
+    border: 1px solid #d3d3d3;
+    display: none;
+    padding: 10px;
+}
+
+    .dellaNavMenu span {
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+
+.dellaNav ul {
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+    .dellaNav ul li {
+        float: left;
+        padding: 15px 10px;
+        border-right: 1px solid #0093D1;
+        list-style: none;
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+selectorder_div {
+    width: 800px;
+    height: 215px;
+    position: fixed;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #b4b4b4;
+    z-index: 50;
+    top: 50%;
+    left: 50%;
+    margin-top: -170px;
+    margin-left: -400px;
+    display: none;
+}
+
+.dellaselected_li {
+    background-color: rgb(0, 147, 209);
+    color: white;
+}
+
+#dellaGuidline li {
+    list-style: square;
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.tabcontentsection {
+    display: none;
+}
+
+.dellapackageitems {
+    height: 427px;
+    width: 297px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid #0093D1;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+    .dellapackageitems p {
+        padding: 3px;
+    }
+
+    .dellapackageitems img {
+        height: 247px;
+        width: 297px;
+    }
+
+.dellaactivityitems {
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 2px;
+}
+
+    .dellaactivityitems img {
+        height: 120px;
+        width: 120px;
+    }
+
+.dellacalnavbtn {
+    padding: 5px;
+    color: rgb(49, 198, 252);
+    cursor: pointer;
+    float: left;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(53, 53, 53);
+}
+
+    .dellacalnavbtn:hover {
+        background-color: rgb(49, 198, 252);
+        color: rgb(53, 53, 53);
+    }
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1010px) {
+}
+
+@media (max-width: 750px) {
+    .DellaLogo {
+        width: 50%;
+        z-index: 5;
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .dellaNav ul li {
+        float: left;
+        padding: 15px 10px;
+        color: black;
+        border-right: 1px solid #CDCDCD;
+        list-style: none;
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: 90%;
+    }
+
+    .dellaNav {
+        background-color: white;
+        border: 1px solid #0093D1;
+        display: none;
+    }
+
+    .dellaNavMenu {
+        background-color: #0093D1;
+        border: 1px solid #0093D1;
+        display: block;
+    }
+
+
+    .venueBox {
+        float: left;
+        width: 100%;
+    }
+}

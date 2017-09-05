@@ -1,0 +1,706 @@
+body {
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.titleGame {
+    height: 100px;
+}
+.BooknowTxt {
+    color:rgb(69,230,38);
+}
+.cluehuntLogo img {
+    width: 174px;
+}
+
+.DataLoader {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.GameIconBox {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin-left: 8px;
+    text-align: center;
+    min-width: 185px;
+}
+
+    .GameIconBox img {
+        width: 220px;
+        height: 180px;
+    }
+
+.gameIconDetails {
+    width: 100%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.gameIconTitle {
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title_child {
+    font-size: 16px;
+}
+
+
+.VenueAddress {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+.Cluehunt_P {
+    width: 96%;
+    text-align: justify;
+    font-family: verdana;
+    font-size: 15px;
+    margin: 80px 20px;
+}
+
+.gamesOption {
+    margin-top: 50px;
+    z-index: 5;
+    margin-left: 20px;
+}
+
+.blocked {
+    border-radius: 5px;
+    padding: 2px;
+    color: #FF3F3F;
+    background-color: #FFF2F2;
+    border: 1px solid #FFDBDB;
+    font-size: 11px;
+    text-align: center;
+}
+
+.available {
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    background-color: rgba(6, 129, 0, 1);
+    border: 1px solid rgba(6, 129, 0, 1);
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell {
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+}
+
+.daySpan {
+    width: 92px;
+}
+
+.weekendcell {
+    background-color: #E6E6E6;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.rowhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #E6E6E6;
+    color: #A65405;
+    border: 1px solid #DDDDDD;
+    font-weight: bold;
+}
+
+
+.proceed_btn {
+    padding: 6px;
+    font-size: 14px;
+    font-family: Verdana;
+    color: white;
+    background-color: #A30000;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ededed;
+}
+
+    .proceed_btn:hover {
+        padding: 6px;
+        font-size: 14px;
+        font-family: Verdana;
+        color: white;
+        background-color: rgb(214, 3, 3);
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ededed;
+    }
+
+.tableContent {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 793px;
+    margin-left: 110px;
+}
+
+    .tableContent table tr td:first-child {
+        position: absolute;
+        left: 0px;
+        border: 5px solid #E4E4E4;
+        padding: 14px 18px;
+    }
+
+.navigate_btn {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    left: 50%;
+    margin-left: 275px;
+    top: 10px;
+    padding: 5px;
+    background-color: rgb(29, 30, 31);
+    border-radius: 5px;
+    color: rgb(150, 252, 231);
+    z-index: 5;
+}
+
+.next_btn {
+    cursor: pointer;
+    font-style: normal;
+}
+
+    .next_btn:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+.prev_btn {
+    cursor: pointer;
+    font-style: normal;
+}
+
+    .prev_btn:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+.EventCalendarBox {
+    position: relative;
+    min-height: 560px;
+    margin-left: 20px;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+
+#init .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: rgb(166, 84, 5);
+    color: white;
+    border: 1px solid #9B4D02;
+    font-style: normal;
+}
+
+#init .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid rgb(166, 84, 5);
+    border-right: 6px solid rgb(166, 84, 5);
+}
+
+#init .tableContent #mytable .weekend {
+    background-color: #E07711;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #CB6B0E;
+    font-style: normal;
+}
+
+
+#init1 .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #CC4D1B;
+    color: white;
+    border: 1px solid #D86519;
+    font-style: normal;
+}
+
+#init1 .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #CC4D1B;
+    border-right: 6px solid #CC4D1B;
+}
+
+#init1 .tableContent #mytable .weekend {
+    background-color: #FF6905;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: black;
+    border: 1px solid #F58D3C;
+    font-style: normal;
+}
+
+#init2 .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+   /*background-color: #CC4D1B;
+        border: 1px solid #D86519;
+       */
+    color: white;
+    background-color: #4E585A;
+     border: 1px solid #353E3E;
+    font-style: normal;
+}
+
+#init2 .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    /*border: 5px solid #CC4D1B;
+    border-right: 6px solid #CC4D1B;*/
+      border: 5px solid #575C5D;
+    border-right: 6px solid #565D5F;
+}
+
+#init2 .tableContent #mytable .weekend {
+    /*background-color: #FF6905;
+     border: 1px solid #F58D3C;*/
+       background-color: #83979C;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: black;
+    border: 1px solid #859AA0;
+    font-style: normal;
+}
+
+#init3 .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    /*background-color: #CC4D1B;
+    border: 1px solid #D86519;*/
+    background-color: #689EC1;
+    border: 1px solid #7C9DAB;
+    color: white;
+  
+    font-style: normal;
+}
+
+#init3 .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    /*border: 5px solid #CC4D1B;
+    border-right: 6px solid #CC4D1B;*/
+     border: 5px solid #7B9BAB;
+    border-right: 6px solid #6B96A9;
+}
+
+#init3 .tableContent #mytable .weekend {
+    /*background-color: #FF6905;
+    border: 1px solid #F58D3C;*/
+   background-color: #155792;
+   border: 1px solid #2D4D8A;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: black;
+   
+    font-style: normal;
+}
+
+#initMystery .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #071f92;
+    color: white;
+    border: 1px solid #080671;
+    font-style: normal;
+}
+
+#initMystery .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #071f92;
+    border-right: 6px solid #071f92;
+}
+
+#initMystery .tableContent #mytable .weekend {
+    background-color: #0D37FF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #2D10E0;
+    font-style: normal;
+}
+
+
+
+#initPainting .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #096C01;
+    color: rgb(253, 253, 253);
+    border: 1px solid #064713;
+    font-style: normal;
+}
+
+#initPainting .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #096C01;
+    border-right: 6px solid #096C01;
+}
+
+#initPainting .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #189E0D;
+    color: white;
+    border: 1px solid #0B5C1C;
+    font-style: normal;
+}
+
+
+
+#initDiamondMaze .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #6e0393;
+    color: white;
+    border: 1px solid #9711F2;
+    font-style: normal;
+}
+
+#initDiamondMaze .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #6e0393;
+    border-right: 6px solid #6e0393;
+}
+
+#initDiamondMaze .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #C418FF;
+    color: white;
+    border: 1px solid #8C03E8;
+    font-style: normal;
+}
+
+
+.cluehunt_tab {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #A43E00;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #A43E00;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+}
+
+.cluehunt_tab_selected {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #454545;
+    border-top: 2px solid #A43E00;
+    border-bottom: none;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #363636;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.txtaddress {
+    float: right;
+    padding: 5px;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+
+.Menu_content {
+    width: 100%;
+    display: none;
+    clear: left;
+}
+
+.locationOption {
+    z-index: 5;
+    float: left;
+    margin-left: 20px;
+}
+   .locationOption ul {
+        -webkit-padding-start: 0px;
+        -webkit-margin-after: 0px;
+        -webkit-margin-before: 0px;
+    }
+
+
+.LocationTab {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #f00;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #f00;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+}
+
+.LocationTab_selected {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #454545;
+    border-top: 2px solid #035C57;
+    border-bottom: none;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #363636;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.locationTabBox {
+    background-color: rgb(166, 84, 5);
+    margin-top: 22px;
+    overflow: auto;
+}
+
+.cluehuntNav {
+    margin-left: 170px;
+    border-top: 1px solid rgb(217, 119, 81);
+    margin-top: -33px;
+    padding: 5px;
+    display: block;
+    color: rgb(21, 21, 21);
+    cursor: pointer;
+}
+
+
+.menuitems_selected {
+    font-size: 14px;
+    font-family: Verdana;
+    border-radius: 5px 5px 0px 0;
+    background-color: rgb(166, 84, 5);
+    color: white;
+    padding: 5px;
+    max-width: 100px;
+    text-align: center;
+    font-weight: bold;
+    cursor: default;
+}
+
+.menuitems {
+    font-size: 14px;
+    font-family: Verdana;
+    border-radius: 5px 5px 0px 0;
+    padding: 5px;
+    min-width: 150px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+.cluehuntHeader {
+    width: 100%;
+    height: 127px;
+    background-color: #DDDDDD;
+}
+
+.cluehuntLogo {
+    margin: 0;
+    width: 172px;
+}
+
+.cluehuntlogo_txt {
+    margin-left: 200px;
+    margin-top: -110px;
+    display: block;
+    width: 292px;
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1010px) {
+}
+
+@media (max-width: 750px) {
+    .cluehuntLogo {
+        margin: 0 auto;
+        width: 108px;
+    }
+
+        .cluehuntLogo img {
+            width: 120px;
+        }
+
+    .cluehuntlogo_txt {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .cluehuntHeader {
+        width: 100%;
+        height: 80px;
+        background-color: #DDDDDD;
+    }
+
+    .cluehuntNav {
+        margin-left: 170px;
+        border-top: 1px dashed rgb(86, 115, 115);
+        margin-top: -30px;
+        padding: 5px;
+        display: none;
+    }
+
+    .locationTabBox {
+        background-color: rgb(166, 84, 5);
+        margin-top: 66px;
+        overflow: auto;
+    }
+
+    .locationOption {
+        z-index: 5;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .gamesOption {
+        margin-top: 0px;
+        z-index: 5;
+        margin-left: 0px;
+    }
+
+    .EventCalendarBox {
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        font-family: Verdana;
+        font-size: 15px;
+        font-style: italic;
+        text-align: justify;
+        margin-top: 80px;
+    }
+
+    .cluehunt_tab {
+        font-size: 15px;
+        font-family: Verdana;
+        margin-top: 0px;
+        margin-left: 3px;
+        border: 1px solid #A43E00;
+        padding: 5px;
+        float: left;
+        list-style: none;
+        display: inline;
+        color: #FFFFFF;
+        cursor: pointer;
+        background-color: #A43E00;
+        border-radius: 5px 5px 0px 0px;
+        font-weight: bold;
+        width: 95%;
+    }
+
+    .cluehunt_tab_selected {
+        font-size: 15px;
+        font-family: Verdana;
+        margin-top: 0px;
+        margin-left: 3px;
+        border: 1px solid #454545;
+        border-top: 2px solid #A43E00;
+        border-bottom: none;
+        padding: 5px;
+        float: left;
+        list-style: none;
+        display: inline;
+        color: #363636;
+        cursor: pointer;
+        background-color: #fff;
+        font-weight: bold;
+        border-radius: 5px 5px 0px 0px;
+        width: 95%;
+    }
+
+    .navigate_btn {
+        position: absolute;
+        width: 150px;
+        text-align: center;
+        left: 0%;
+        margin-left: 0px;
+        top: 10px;
+        padding: 5px;
+        background-color: rgb(29, 30, 31);
+        border-radius: 5px;
+        color: rgb(150, 252, 231);
+        z-index: 5;
+    }
+
+    .Cluehunt_P {
+        width: 90%;
+        text-align: justify;
+        font-family: verdana;
+        font-size: 13px;
+        margin: 80px 20px;
+    }
+
+    .GameIconBox {
+        width: 95%;
+        float: left;
+        padding: 5px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,553 @@
+/*new css for seat layout starts here*/
+.disabletxt {
+    background-color: #fff;
+    border: none;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.nyroModalCont {
+    width: 900px;
+    display: block;
+    border: 1px solid #8B7816;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -450px;
+    background-color: white;
+    z-index: 100;
+    display: none;
+}
+
+.seatlayoutbk {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.7;
+    display: none;
+}
+
+#screenintro {
+    width: 100%;
+    bottom: 0px;
+    display: none;
+}
+
+.nyroModalClose {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #8B7816;
+    padding: 5px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nyrointro {
+    display: none;
+}
+
+.nyrodrpdwn {
+    width: 130px;
+    float: left;
+    color: #8B7816;
+    font-family: verdana;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.othernarodetails {
+    float: left;
+    font-family: Verdana;
+    color: #232323;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.screensideIcon {
+    font-family: Verdana;
+    font-size: 16px;
+    padding: 2px;
+    color: white;
+    background-color: #8B7816;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.screentxt {
+    font-family: verdana;
+    font-size: 12px;
+    color: gray;
+}
+
+#movieName {
+    font-family: verdana;
+    font-size: 17px;
+    color: #8B7816;
+    font-weight: bold;
+}
+
+.otherdisplaytxt {
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+}
+
+.nyroseperator {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    height: 20px;
+}
+
+.nyro_proceed {
+    font-size: 15px;
+    font-family: verdana;
+    padding: 5px 20px;
+    background-color: #8B7816;
+    border: 0px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+#alertsms {
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: verdana;
+}
+
+/*new css for seat layout end here*/
+
+#cinemaDetail {
+    padding: 2px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    -moz-box-shadow: 0 0 5px gray;
+    -webkit-box-shadow: 0 0 5px gray;
+}
+
+.showmovietime {
+    box-shadow: 0 0 1px gray;
+    -moz-box-shadow: 0 0 1px gray;
+    -webkit-box-shadow: 0 0 1px gray;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #e2e2e2;
+}
+
+    .showmovietime table tr {
+        height: 50px;
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+.timing table tr {
+    border: none;
+}
+
+.showTime disabled {
+    cursor: none;
+}
+
+#ScreenPlex {
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+}
+
+.movienamelnk {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: maroon;
+    font-weight: bold;
+}
+
+.movietiming {
+    position: relative;
+    height: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D1CDCD;
+    background-color: #DDDDDD;
+    margin-bottom: 10px;
+    width: 905px;
+}
+
+#dhtmltooltip {
+    position: absolute;
+    left: -300px;
+    width: auto;
+    padding: 5px;
+    visibility: hidden;
+    margin: auto;
+    border-radius: 3px;
+    font-family: Verdana;
+    font-size: 12px;
+    z-index: 100;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+    border: 1px solid rgb(48, 9, 9);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgba(99, 15, 15, 1);
+}
+
+#dhtmlpointer {
+    position: absolute;
+    left: -300px;
+    z-index: 101;
+    visibility: hidden;
+}
+
+.ddl {
+    padding-left: 35px;
+    height: 10px;
+}
+
+.ddlcity {
+    height: 22px;
+    padding: 2px;
+    width: 120px;
+    background: #fff;
+    color: White;
+    background-color: #A61244;
+    border: 0px;
+    border-bottom: 0px solid yellow;
+    margin: 0 0 3px 0;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.tiparrow {
+    position: absolute;
+    top: 50px;
+    border-top: 5px solid maroon;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.showtimeheadertxt {
+    width: 300px;
+    padding-top: 7px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+#mask {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"; /* first!*/
+    filter: alpha(opacity=40); /* second!*/
+    background-color: gray;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+#place {
+    position: relative;
+    margin: 3px;
+}
+
+    #place a {
+        font-size: 10px;
+    }
+
+    #place li {
+        list-style: none outside none;
+        position: absolute;
+    }
+
+.customdetail {
+    width: 98%;
+    margin-top: 10px;
+}
+
+.RowLabel a {
+    font-weight: bold;
+    font-size: 32px;
+    color: Black;
+}
+
+.ahide {
+    display: none;
+}
+
+.RowGap {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: Silver;
+    width: 87%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.RowScreen {
+    float: left;
+    height: 50px;
+    width: 400px;
+    display: block;
+    position: inherit;
+    margin-left: 150px;
+}
+
+#connectionErr {
+    position: absolute;
+    left: 300px;
+    top: -300px;
+    z-index: -1;
+    background-color: Green;
+}
+
+
+
+
+#place .gap {
+    background: url('../images/gap.GIF') no-repeat 0 0; /* background-color:White;*/
+    height: 22px;
+    width: 22px;
+    display: block;
+    z-index: 0;
+}
+
+#place .otherSeat {
+    background: url('../images/bchair.gif') no-repeat 0 0;
+    height: 22px;
+    width: 22px;
+    display: block;
+}
+
+#place .seat {
+    background: url('../images/wchair.gif') no-repeat 0 0;
+    height: 22px;
+    width: 22px;
+    display: block;
+}
+
+#place .selectedSeat {
+    background: url('../images/rchair.gif') no-repeat 0 0;
+    height: 22px;
+    width: 22px;
+    display: block;
+}
+
+#place .selectingSeat {
+    background-image: url('../images/gchair.gif');
+}
+
+#place .ScreenImg {
+    float: left;
+    height: 50px;
+    width: 500px;
+    display: block;
+    position: inherit;
+    top: 340px;
+}
+
+#SeatDescDiv {
+    height: 30px;
+    background-color: #f1f1f1;
+    float: left;
+    padding-top: 10px;
+    margin-left: 5px;
+    width: 100%;
+}
+
+#seatDescription li {
+    padding-left: 25px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    list-style: none outside none;
+    float: left;
+}
+
+#seatDescription .otherSeat {
+    background: url('../../images/bchair.gif') no-repeat 0 0;
+    display: block;
+}
+
+#seatDescription .yourSeat {
+    background: url('../../images/gchair.gif') no-repeat 0 0;
+    display: block;
+}
+
+#seatDescription .seat {
+    background: url('../../images/wchair.gif') no-repeat 0 0;
+    display: block;
+}
+
+#seatDescription .selectedSeat {
+    background: url('../../images/rchair.gif') no-repeat 0 0;
+    display: block;
+}
+
+
+
+.seatnumber {
+    color: Black;
+    font-weight: bold;
+    background-color: White;
+}
+
+
+
+
+.classtext {
+    color: Maroon;
+    font-size: larger;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+
+
+
+
+
+#holder {
+    height: 380px;
+    width: 850px;
+    background-color: #fff;
+    margin-left: 15px;
+    overflow: auto;
+    top: 135px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: none;
+}
+
+.divSeatLayoutParent {
+    overflow: auto;
+    float: left;
+    width: auto;
+}
+
+.customdetail tr td {
+    float: none;
+}
+
+.SeatLayoutParentTable {
+    width: 94%;
+    margin-left: 20px;
+    border-spacing: 0px;
+}
+
+    .SeatLayoutParentTable tr td {
+        float: none;
+    }
+
+#alertdiv {
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -50px;
+    display: none;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: rgb(97, 97, 97) 0px 0px 10px;
+}
+
+#screenintro table {
+    width:100%;
+}
+
+@media (max-width: 750px) {
+    .nyroModalCont {
+        width: 100%;
+        display: block;
+        border: 1px solid #8B7816;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: white;
+        z-index: 100;
+        display: none;
+    }
+
+    #alertdiv {
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 50%;
+    display: none;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: rgb(97, 97, 97) 0px 0px 10px;
+}
+
+    #holder {
+        height: 200px;
+        width: auto;
+        background-color: #fff;
+        margin-left: 15px;
+        overflow: auto;
+        top: 135px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .customdetail {
+        width: 80%;
+    }
+
+        .customdetail tr td {
+            float: left;
+        }
+
+    .divSeatLayoutParent {
+        overflow: auto;
+        float: left;
+        width: 95%;
+    }
+
+    .SeatLayoutParentTable {
+        width: auto;
+        margin-left: 0px;
+    }
+
+        .SeatLayoutParentTable tbody tr td {
+            float: left;
+        }
+
+        #screenintro table {
+    width:auto;
+}
+}
+
+@media (max-width: 400px) {
+    .othernarodetails {
+        float: none;
+        font-family: Verdana;
+        color: #232323;
+        font-size: 14px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}

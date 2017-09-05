@@ -1,0 +1,1516 @@
+body {
+}
+
+
+.adventurePageLogo {
+    width: 15%;
+    padding: 10px;
+    z-index: 5;
+    position: absolute;
+    top: 5px;
+}
+
+    .adventurePageLogo img {
+        width: 100%;
+    }
+
+.requiredFieldvalidatorClass {
+    color: red;
+}
+
+.EventTicketQTYSelect {
+    padding: 5px;
+    border: 1px solid rgb(223, 223, 223);
+    font-family: verdana;
+    font-size: 14px;
+    max-width: 200px;
+    outline: none;
+}
+
+
+.parentDiv {
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #eee;
+    cursor: pointer;
+    border: 1px solid rgb(203, 203, 203);
+}
+
+.childDiv {
+    padding: 5px;
+    font-family: Verdana;
+    overflow: auto;
+    font-size: 13px;
+    border: 1px solid rgb(216, 216, 216);
+    display: none;
+}
+
+.activeSection {
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #F7F7F7;
+    cursor: pointer;
+    border: 1px solid rgb(203, 203, 203);
+    color: rgb(205, 0, 0);
+}
+
+.childDiv p {
+    float: none;
+}
+
+.normalSpan {
+    font-size: 14px;
+    font-family: Verdana;
+    color: black;
+}
+
+.pageBox {
+    width: 95%;
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+    .pageBox img {
+        width: 100%;
+    }
+
+.buttonSubmit {
+    border: 1px solid #8B7816;
+    background-color: #8B7816;
+    color: white;
+    padding: 5px 8px;
+    font-size: 13px;
+    font-family: verdana;
+    cursor: pointer;
+}
+
+    .buttonSubmit:hover {
+        outline: none;
+        color: orange;
+    }
+
+.normalInputText {
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    color: #808080;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+    .normalInputText:focus {
+        color: black;
+        outline: none;
+        border: 1px solid black;
+    }
+
+.widthborder {
+    border-right: 1px dashed rgb(231, 218, 218);
+}
+
+.theatrebox {
+    border: 1px solid #DDDDDD;
+    float: left;
+    padding: 8px;
+    width: 225px;
+    margin: 5px;
+}
+
+.showTimeBlock {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.EventNameBox {
+    float: left;
+    border-bottom: 1px solid #dedede;
+}
+
+.EventNameBoxInner {
+    width: 150px;
+    float: left;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.regionShowTimeContainer {
+    width: 450px;
+    float: left;
+    padding: 0px;
+}
+
+.regionCinemaName {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana;
+    color: #8B7816;
+}
+
+.regionCinemaAddress {
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.cinemaInfoTable {
+    margin-left: 5px;
+    width: 220px;
+}
+
+.regionVenueTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8B7816;
+    font-family: Verdana;
+}
+
+.showtimebody {
+    float: left;
+    padding: 5px;
+}
+
+.regionShowTimeBox {
+ 
+    position: relative;
+    border: 1px solid lightgrey;
+    margin-top: 5px;
+    margin: 8px auto;
+    overflow: auto;
+}
+
+.showTimeBox_Inner {
+    width: 650px;
+    min-height: 50px;
+    border-right: 1px dotted #808080;
+    float: left;
+}
+
+.CinemaInfoBox {
+    width: 230px;
+    min-height: 50px;
+    float: left;
+}
+
+.headParagraph {
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.infoDiv {
+    background-color: black;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+    .infoDiv:hover {
+        opacity: 0.9;
+    }
+
+.infoTxt {
+    color: white;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+.innercontainer p {
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.highlightStyleTxt {
+    text-align: left;
+    font-family: Verdana;
+    font-size: 13px;
+    color: Red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.EventBlockTitle a {
+    font-family: verdana;
+    color: #BE0202;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.fieldtitle {
+    font-family: Verdana;
+    color: Maroon;
+    font-size: 14px;
+    padding: 1px;
+}
+
+.TxtNormal {
+    text-decoration: none;
+    color: black;
+    font-family: verdana;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.titleBar {
+   max-width: 100%;
+    position: relative;
+    border: 1px solid #9e8815;
+    background-color: #8b7816;
+    height: 31px;
+    margin-top: 20px;
+}
+
+.titleBox {
+    padding: 5px 30px;
+    font-size: 18px;
+    font-family: Verdana;
+    background-color:rgb(169, 148, 38);
+    color: white;
+    position: absolute;
+}
+
+    .titleBox:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: -2px;
+        top: 32px;
+        border-top: 20px solid #8b7816;
+        border-left: 20px solid transparent;
+    }
+
+    .titleBox:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 0px;
+        border-bottom: 100px solid #8b7816;
+        border-left: 50px solid transparent;
+        top: 0px;
+    }
+
+.innercontainer {
+    margin: 0 auto;
+    position: relative;
+    max-width: 90%;
+}
+
+.thumbnailButton 
+{
+    padding:10px 5px;
+    background-color: #8B7816;
+    color: white;
+    font-family: Verdana;
+    font-size: 12px;
+    position: absolute;
+    width: 92%;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 5;
+    box-sizing:initial;
+}
+
+    .thumbnailButton:hover {
+        opacity: 1;
+    }
+
+.ThumbnailHolder {
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 96%;
+    border: 1px solid rgba(236, 224, 224, 0.43);
+    padding-top: 20px;
+    border-top: 0px;
+    background-color: #F1F1F1;
+    padding-bottom: 10px;
+    min-height: 50px;
+}
+
+.innerThumbnail {
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+.mainLoginForm {
+    border: 1px solid #EFEFEF;
+    max-width: 97%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.floatingBox {
+    float: left;
+    width: 400px;
+    height: auto;
+}
+
+.normalheadtxt {
+    font-family: verdana;
+    font-size: 17px;
+}
+
+.floatingBox table tr td {
+    padding: 10px 0px;
+}
+
+.txt {
+    font-family: Verdana;
+    padding: 5px;
+    width: 200px;
+    font-style: italic;
+    border: 1px solid #d8d8d8;
+    color: #808080;
+    outline: none;
+}
+
+    .txt:focus {
+        border: 1px solid #8B7816;
+        color: #1b1b1b;
+        outline: none;
+    }
+
+#divToPrint {
+    max-width: 820px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.OriginalTicketDiv {
+    max-width: 500px;
+    border-right: 1px dashed #9c9c9c;
+    float: left;
+    width: 500px;
+}
+
+.CinemaCopyDiv {
+    width: 300px;
+    float: left;
+}
+
+.ticketDisclaimerDiv {
+    clear: left;
+    width: 100%;
+    border-top: 1px solid #8B7816;
+    border-bottom: 1px dashed #9c9c9c;
+}
+
+.FormField {
+    font-family: verdana;
+    font-size: 20px;
+    color: black;
+}
+
+.smallchkbox {
+    margin: 0px 3px;
+    height: 12px;
+    width: 12px;
+}
+
+#shopingcartform tr {
+    height: 40px;
+}
+
+
+.movieContent {
+    display: none;
+    width: 675px;
+    float: left;
+    height: 350px;
+}
+
+.orderheadertd {
+    padding: 5px;
+    font-family: verdana;
+    color: rgb(255, 255, 255);
+    background-color: #8B7816;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.leftbox table tr td {
+    padding: 10px 5px;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.orderTxtBold {
+    font-weight: bold;
+}
+
+.mainbox {
+    width: 97%;
+    position: relative;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    margin: 0 auto;
+    margin-left: 8px;
+}
+
+.Proceed_btn {
+    border: 0px;
+    padding: 5px 12px;
+    font-size: 15px;
+    font-family: verdana;
+    background-color: #8B7816;
+    color: white;
+    cursor: pointer;
+}
+
+.forminput {
+    font-family: verdana;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+    .forminput:focus {
+        border: 1px solid #8B7816;
+        outline: none;
+    }
+
+.leftbox {
+    max-width: 450px;
+    float: left;
+}
+
+.col {
+    margin-left: 50px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.paymentInfo ul li {
+    list-style: circle;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.SliderBlock {
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+}
+
+.topMoviesBlock {
+    width: 200px;
+    padding: 4px;
+    float: left;
+    box-shadow: 0 0 5px #ededed;
+    border-bottom: 1px dashed #ededed;
+    border-right: 0px dashed #ededed;
+}
+
+.topMoviesThumbnail {
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    border: 1px solid #ededed;
+    float: left;
+}
+
+.topMoviesTitle {
+    height: 30px;
+    width: 155px;
+    padding: 2px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.topMoviesName {
+    font-family: verdana;
+    font-size: 14px;
+    color: #8B7816;
+    text-decoration: none;
+}
+
+.topMoviesDate {
+    font-family: verdana;
+    font-size: 11px;
+}
+
+.popupcover {
+    width: 73%;
+    height: 370px;
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    display: none;
+}
+
+#Movietrailer div object {
+    width: 650px;
+    height: 350px;
+}
+
+.buyTicketBlock {
+    position: absolute;
+    top: 100px;
+    border: 1px dashed #8B7816;
+    padding: 5px;
+    width: 68%;
+    height: 80px;
+    background-color: white;
+    display: none;
+    z-index: 10;
+}
+
+    .buyTicketBlock div span {
+        font-family: verdana;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+.SelectBtn {
+    padding: 5px;
+    font-size: 15px;
+    font-family: verdana;
+    color: red;
+    margin: 10px;
+    width: 150px;
+}
+
+.makeTicketBlock {
+    display: block;
+    position: absolute;
+    padding: 10px;
+    border: 1px dashed #8B7816;
+    width: 500px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    background-color: white;
+}
+
+.movieContent {
+    display: none;
+    max-width: 675px;
+    float: left;
+    height: 350px;
+}
+
+.MovieOptionDiv {
+    width: 98%;
+    margin: 5px 0px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #eae8e8;
+    float: none;
+}
+
+
+.MovieDescription {
+    width: 65%;
+    float: left;
+    height: 350px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+    .MovieDescription:hover {
+        width: 65%;
+        float: left;
+        height: 350px;
+        overflow: auto;
+    }
+
+.SecTopMovies {
+    width: 210px;
+    height: 338px;
+    border: 1px solid rgb(238, 238, 238);
+    float: left;
+    padding: 5px;
+}
+
+.Event_bannerImage {
+    width: 68%;
+    position: relative;
+    top: 0px;
+    float: left;
+    margin-left: 8px;
+}
+
+.EventBannerSection {
+    width: 100%;
+    float: left;
+    padding: 5px 0px;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 5px;
+}
+
+.EventCalendarSection {
+    width: 285px;
+    border: 1px solid #eaeaea;
+    float: left;
+    margin-left: 5px;
+    height: 298px;
+    display: block;
+}
+
+.EventInnerCalendar {
+    width: 285px;
+    background-color: rgb(236, 236, 236);
+    height: 298px;
+}
+
+.Event_Block {
+    padding: 5px;
+    max-width: 450px;
+    margin-left: 30px;
+    float: left;
+    border: 1px solid #efefef;
+    margin-bottom: 5px;
+}
+
+.Event_Block_Image {
+    float: left;
+    height: 200px;
+    width: 170px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid #808080;
+}
+
+
+    .Event_Block_Image img {
+        height: 200px;
+        width: 170px;
+    }
+
+.Event_Block_Details {
+    float: left;
+    width: 230px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid #808080;
+}
+
+.EventShortDetailsBox {
+    max-width: 100%;
+    height: 125px;
+    overflow: hidden;
+}
+
+    .EventShortDetailsBox:hover {
+        max-width: 100%;
+        height: 125px;
+        overflow: auto;
+    }
+
+.EventShortDetailsTxt {
+    font-family: Verdana;
+    font-size: 11px;
+    padding: 2px;
+}
+
+.EventBlock_Info {
+    max-width: 100%;
+    height: 70px;
+    background-color: #e5e5e5;
+    margin-top: 5px;
+}
+
+.EventBlockTitle {
+    font-family: verdana;
+    color: #BE0202;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.EventBlockRelDate {
+    font-family: verdana;
+    font-size: 13px;
+}
+
+.EventBlockBtn {
+    padding: 3px 10px;
+    font-size: 12px;
+    font-family: Verdana;
+    border: 1px solid #8B7816;
+    background-color: #8B7816;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+
+    .EventBlockBtn:hover {
+        background-color: #8B7816;
+    }
+
+.genreContainer {
+    max-width: 100%;
+    padding: 3px;
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: verdana;
+    font-size: 13px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.PageContent {
+    max-width: 930px;
+    margin: 0 auto;
+    height: auto;
+    padding: 5px;
+}
+
+.ticketblock {
+    float: left;
+    padding: 20px;
+}
+
+.EventTicketSelect {
+    padding: 5px;
+    border: 1px solid rgb(223, 223, 223);
+    font-family: verdana;
+    font-size: 14px;
+    max-width: 400px;
+    outline: none;
+}
+
+.btnBuyTicket {
+    padding: 8px 20px;
+    font-family: Verdana;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: #8B7816;
+    border-radius: 5px;
+    border: 0px;
+}
+
+    .btnBuyTicket:hover {
+        cursor: pointer;
+        background-color: rgb(169, 148, 38);
+    }
+
+.eventDateSection {
+    float: left;
+    border-right: 1px dashed #ebebeb;
+    padding: 20px;
+}
+
+.eventMonth {
+    background-color: #383838;
+    color: white;
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 3px;
+    border-top: 1px dashed white;
+    border-bottom: 1px solid #383838;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.eventDay {
+    background-color: white;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    padding: 8px;
+}
+
+.headertd {
+    padding: 5px;
+}
+
+.ParagraphTxt {
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 5px;
+    color: black;
+    line-height: 22px;
+    margin-left:-5px;
+}
+
+.eventNameTxt {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #8B7816;
+    font-weight: bold;
+}
+
+.EventContainer {
+    width: 98%;
+    height: 350px;
+    padding: 5px;
+    border: 1px solid #eae8e8;
+}
+
+.EventDescImage {
+    float: left;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid #eae8e8;
+    width: 220px;
+    height: 300px;
+    border: 1px solid #eae8e8;
+}
+
+.EventDescription {
+    width: 72%;
+    float: left;
+    height: 340px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px 12px;
+}
+
+    .EventDescription:hover {
+        width: 72%;
+        float: left;
+        height: 340px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 5px 12px;
+    }
+
+.EventDescTab {
+    max-width: 100%;
+    margin: 5px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #eae8e8;
+    background-color: #eae8e8;
+}
+
+.headertd {
+    background-color: rgb(73, 70, 70);
+}
+
+.TabDescContainer {
+    width: 100%;
+    float: left;
+    height: auto;
+    display: none;
+}
+
+.EventDetails {
+    float: right;
+    width: 250px;
+    height: 320px;
+    padding: 5px;
+    border: 1px solid #eae8e8;
+    display: none;
+}
+
+.headerTxt {
+    color: white;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.EventDetails table tr td {
+    padding: 8px 5px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: rgb(73, 70, 70);
+}
+
+.EventDescTab_Item {
+    float: left;
+    font-family: Verdana;
+    color: #808080;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+    .EventDescTab_Item:hover {
+        color: black;
+    }
+
+.EventDescTab_Item_selected {
+    float: left;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #8B7816;
+}
+
+    .EventDescTab_Item_selected:hover {
+        color: white;
+    }
+
+.filterSection {
+    max-width: 950px;
+    padding: 2px;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid rgba(139, 120, 22, 0.14);
+    position: relative;
+}
+
+.innerFilterSection {
+    height: 66px;
+    position: relative;
+    width: 920px;
+}
+
+.filterLabel {
+    background-color: #8B7816;
+    padding: 24px 15px;
+    font-family: Verdana;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    float: left;
+}
+
+.LinearDateSelector {
+    position: relative;
+    width: 45%;
+    padding: 5px;
+    border-left: 1px dotted #e2e2e2;
+    float: left;
+}
+
+.arrowLeft {
+    border-right: 15px solid #8B7816;
+    border-bottom: 19px solid transparent;
+    border-top: 19px solid transparent;
+    float: left;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.arrowRight {
+    border-left: 15px solid #8B7816;
+    border-bottom: 19px solid transparent;
+    border-top: 19px solid transparent;
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.DateCalendar {
+    max-width: 407px;
+    overflow: hidden;
+}
+
+    .DateCalendar table tr td {
+        padding: 8px;
+        border: 1px solid #8B7816;
+        text-align: center;
+    }
+
+.dateItem {
+    width: 37px;
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #8B7816;
+}
+
+.selectedTd {
+    background-color: #8B7816;
+    color: white;
+}
+
+.dataContainer {
+    max-width: 920px;
+    margin: 10px auto;
+}
+
+.showTime {
+    float: left;
+    font-family: Verdana;
+    font-size: 13px;
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.TimingContainer {
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    float: left;
+    margin-top: 5px;
+}
+
+.ParentBlock {
+    width: 180px;
+    text-align: left;
+    padding: 8px 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+    .ParentBlock span {
+        font-family: Verdana;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+    }
+
+
+.showTimeContainer {
+    max-width: 700px;
+    padding: 5px;
+    border-left: 1px dotted #e4e4e4;
+    float: left;
+}
+
+@media (max-width: 1366px) {
+    .LinearDateSelector {
+        position: relative;
+        width: 45%;
+        padding: 5px;
+        border-left: 1px dotted #e2e2e2;
+        float: left;
+    }
+}
+
+@media (max-width: 1010px) {
+
+    .forminput {
+        font-family: verdana;
+        font-size: 20px;
+        width: 450px;
+        padding: 3px;
+        border-radius: 3px;
+        border: 1px solid gray;
+    }
+
+    .col {
+        margin-left: 0px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+    }
+
+    .leftbox {
+        max-width: initial;
+        float: none;
+    }
+
+    .movieContent {
+        display: none;
+        max-width: 90%;
+        float: left;
+        height: 350px;
+    }
+
+    .MovieOptionDiv {
+        max-width: 98%;
+        margin: 5px 0px;
+        height: 40px;
+        padding: 5px;
+        border: 1px solid #eae8e8;
+        float: left;
+    }
+
+    .innerFilterSection {
+        height: 66px;
+        position: relative;
+        width: 750px;
+    }
+
+    .LinearDateSelector {
+        position: relative;
+        width: 39%;
+        padding: 5px;
+        border-left: 1px dotted #e2e2e2;
+        float: left;
+    }
+
+    .MovieDescription {
+        width: 65%;
+        float: left;
+        height: 350px;
+        overflow: hidden;
+    }
+
+        .MovieDescription:hover {
+            width: 65%;
+            float: left;
+            height: 350px;
+            overflow: auto;
+        }
+
+    .SecTopMovies {
+        width: 98%;
+        height: auto;
+        border: 1px solid rgb(238, 238, 238);
+        float: left;
+        padding: 5px;
+    }
+
+    .Event_bannerImage {
+        width: 60%;
+        position: relative;
+        top: 0px;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .EventDescTab {
+        max-width: 100%;
+        margin: 5px;
+        height: 40px;
+        padding: 5px;
+        border: none;
+    }
+
+    .EventContainer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        border: none;
+        float: left;
+    }
+
+    .EventDescription {
+        width: 69%;
+        float: left;
+        height: 350px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .TabDescContainer {
+        width: 60%;
+        float: left;
+        height: auto;
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .floatingBox {
+        float: left;
+        width: 95%;
+        height: auto;
+    }
+
+    .OriginalTicketDiv {
+        max-width: 100%;
+        border-right: 1px dashed #9c9c9c;
+        float: left;
+        width: 100%;
+    }
+
+    .CinemaCopyDiv {
+        width: 100%;
+        float: left;
+    }
+
+    .forminput {
+        font-family: verdana;
+        font-size: 20px;
+        width: 250px;
+        padding: 3px;
+        border-radius: 3px;
+        border: 1px solid gray;
+    }
+
+    .col {
+        margin-left: 0px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+    }
+
+    .leftbox {
+        max-width: initial;
+        float: none;
+    }
+
+    .movieContent {
+        display: none;
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+
+    .MovieOptionDiv {
+        width: 98%;
+        margin: 5px 0px;
+        height: auto;
+        padding: 5px;
+        border: 1px solid #eae8e8;
+        float: left;
+    }
+
+    .SecTopMovies {
+        width: 98%;
+        height: auto;
+        border: 1px solid rgb(238, 238, 238);
+        float: left;
+        padding: 5px;
+    }
+
+    .MovieDescription {
+        width: 100%;
+        float: left;
+        height: 350px;
+        overflow: hidden;
+    }
+
+        .MovieDescription:hover {
+            width: 100%;
+            float: left;
+            height: 350px;
+            overflow: auto;
+        }
+
+    .innerFilterSection {
+        height: 66px;
+        position: relative;
+        width: 100%;
+    }
+
+    .LinearDateSelector {
+        position: relative;
+        width: 98%;
+        padding: 5px;
+        border-left: 1px dotted #e2e2e2;
+        float: left;
+    }
+
+    .dataContainer {
+        max-width: 750px;
+        width: 98%;
+        border: 1px solid transparent;
+        min-height: 50px;
+        margin: 10px auto;
+    }
+
+    .showTimeContainer {
+        max-width: 700px;
+        width: 96%;
+        padding: 8px;
+        border-left: 1px solid transparent;
+        border-top: 1px dotted #e4e4e4;
+        float: left;
+    }
+
+    .ParentBlock {
+        width: 90%;
+        text-align: left;
+        padding: 8px 10px;
+        float: left;
+    }
+
+    .TimingContainer {
+        border: 1px solid #e4e4e4;
+        max-width: 98%;
+        height: auto;
+        padding: 3px;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .filterSection {
+        max-width: 350px;
+        width: 98%;
+        padding: 2px;
+        margin-top: 15px;
+        background-color: white;
+        border: 1px solid #8B7816;
+        position: relative;
+    }
+
+    .EventDescription {
+        width: 100%;
+        float: left;
+        height: 350px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .EventContainer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        border: none;
+    }
+
+    .EventDescTab {
+        max-width: 100%;
+        margin: 5px;
+        height: 40px;
+        padding: 5px;
+        border: 1px solid #eae8e8;
+        display: none;
+    }
+
+    .EventDetails {
+        float: none;
+        width: 96%;
+        height: auto;
+        padding: 5px;
+        border: 1px solid #eae8e8;
+    }
+
+    .TabDescContainer {
+        width: 96%;
+        float: left;
+        height: auto;
+        display: none;
+    }
+
+    .EventTicketSelect {
+        padding: 3px;
+        border: 1px solid rgb(223, 223, 223);
+        font-family: verdana;
+        font-size: 12px;
+        max-width: 100px;
+        outline: none;
+    }
+
+    .EventCalendarSection {
+        width: 285px;
+        border: 1px solid #eaeaea;
+        float: left;
+        margin-left: 5px;
+        height: 298px;
+        display: none;
+    }
+
+    .Event_bannerImage {
+        width: 98%;
+        position: relative;
+        top: 0px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .Event_Block_Details {
+        float: left;
+        width: 99%;
+        padding: 2px;
+        background-color: white;
+        border: 1px solid #808080;
+    }
+
+    .Event_Block {
+        padding: 5px;
+        max-width: 750px;
+        margin-left: 30px;
+        float: left;
+        border: 1px solid #efefef;
+        margin-bottom: 5px;
+    }
+
+    .showTimeBox_Inner {
+        width: 100%;
+        min-height: 50px;
+        border-right: 0px dotted #808080;
+        float: left;
+    }
+
+    .EventNameBox {
+        float: left;
+        border-bottom: 1px solid #dedede;
+    }
+
+    .EventNameBoxInner {
+        width: 150px;
+        float: left;
+        padding: 5px;
+        font-family: verdana;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .regionShowTimeContainer {
+        width: 96%;
+        float: left;
+        padding: 5px;
+    }
+
+    .widthborder {
+        border-right: 0px dashed rgb(231, 218, 218);
+    }
+
+    .pageBox {
+        width: 95%;
+        padding: 0px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    #Movietrailer div object {
+        width: 100%;
+        height: auto;
+    }
+
+    .buyTicketBlock {
+        position: absolute;
+        top: 100px;
+        border: 1px dashed #8B7816;
+        padding: 5px;
+        width: 90%;
+        height: auto;
+        background-color: white;
+        display: none;
+        z-index: 10;
+    }
+
+    .popupcover {
+        width: 95%;
+        height: 370px;
+        opacity: 0.8;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: black;
+        display: none;
+        overflow: auto;
+    }
+
+    .SelectBtn {
+        padding: 5px;
+        font-size: 15px;
+        font-family: verdana;
+        color: red;
+        margin: 10px;
+        width: 95%;
+    }
+}

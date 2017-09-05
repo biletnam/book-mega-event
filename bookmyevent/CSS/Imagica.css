@@ -1,0 +1,459 @@
+body {
+}
+
+#Mytable {
+    border-spacing: 0px;
+}
+
+.imagicaTicketSelection tr td table tr td {
+    border-left: 1px transparent;
+}
+/*copycss from old imagica css file*/
+.packageNav {
+    background-color: white;
+    overflow: auto;
+}
+
+.mainItem p {
+    font-family: Verdana;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.packageItem {
+    text-align: center;
+    color: black;
+    padding: 5px 15px;
+    font-weight: bold;
+    background-color: #d1d1d1;
+    border: 1px solid #d1d1d1;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+
+    .packageItem:before {
+        content: '';
+        border-bottom: 14px solid transparent;
+        border-top: 14px solid transparent;
+        border-right: 14px solid #d1d1d1;
+        position: absolute;
+        top: 0px;
+        left: -15px;
+    }
+
+.packageItem_Selected {
+    text-align: center;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    background-color: #403f3f;
+    border: 1px solid #403f3f;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+
+    .packageItem_Selected:before {
+        content: '';
+        border-bottom: 14px solid transparent;
+        border-top: 14px solid transparent;
+        border-right: 14px solid #403f3f;
+        position: absolute;
+        top: 0px;
+        left: -15px;
+    }
+
+.mainItem {
+    width: 100%;
+    border: 1px solid #CACACA;
+    margin-bottom: 2px;
+}
+
+.ItemTitle {
+    color: #f00;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: verdana;
+}
+
+.itemDetails {
+    font-family: verdana;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.ItemKeyOpened {
+    color: black;
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    cursor: pointer;
+}
+
+.itemKey {
+    background-color: #F00;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Verdana;
+    position: absolute;
+    right: 30px;
+    margin-top: 5px;
+}
+
+.subItem {
+    margin-top: 2px;
+    display: none;
+}
+
+
+.subitemDetails {
+    font-family: verdana;
+    font-size: 12px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.sumItemTable {
+    border: 1px solid #E6E4E4;
+    margin-bottom: 5px;
+    background-color: rgba(255, 250, 236, 1);
+}
+
+.Details {
+    padding: 15px;
+}
+
+.mytable {
+    border-spacing: 0px;
+}
+
+.categorySection {
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(242, 242, 242);
+}
+
+.CategoryNameTd {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+.CategoryDescriptionTd {
+    padding: 5px;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+.ticketSection {
+    width: 400px;
+    padding: 30px 10px;
+}
+
+.TicketDetailsHeader {
+    padding: 10px 5px;
+    color: rgb(109, 109, 109);
+    font-family: verdana;
+    background-color: rgb(232, 229, 229);
+    font-size: 13px;
+    border-bottom: 2px solid rgb(190, 190, 190);
+    font-weight: bold;
+}
+
+.TicketDetailsTd {
+    padding: 15px 5px;
+    font-family: verdana;
+    font-size: 13px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.TicketTotalPriceTd {
+    text-align: right;
+    padding: 15px 10px;
+    font-size: 13px;
+    color: rgb(131, 1, 1);
+    font-family: verdana;
+}
+
+.bookingSection {
+    width: 150px;
+    padding: 100px 10px;
+    border-left: 2px dotted rgb(231, 231, 231);
+}
+
+.btnOrderProceed {
+    outline: none;
+    background-color: #f00;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*copycss from old imagica css file*/
+
+.ticketFor {
+    display: none;
+    font-family: Verdana;
+    width: 100%;
+    font-size: 14px;
+    background-color: #CDCDCD;
+    color: black;
+}
+
+.imagicaTicketSelection {
+    border-spacing: 0px;
+    border: 1px solid #CDCDCD;
+}
+
+    .imagicaTicketSelection tr td {
+        padding: 10px;
+        text-align: center;
+        border-left: 1px solid #CDCDCD;
+        float: none;
+    }
+
+.imagicaTdHead {
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+    .imagicaTdHead span {
+        color: black;
+        font-family: Verdana;
+        font-size: 14px;
+    }
+
+.imagicaTicketTab table tr {
+    float: left;
+}
+
+    .imagicaTicketTab table tr td {
+        padding: 5px;
+    }
+
+.imagicaTicketTab input[type="radio"]:checked + label {
+    font-weight: bold;
+    font-size: 13px;
+    color: #f00;
+    padding: 8px;
+    margin-right: 20px;
+    font-family: Verdana;
+}
+
+.imagicaTicketTab input[type="radio"] + label {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+    padding: 8px;
+    margin-right: 20px;
+    font-family: Verdana;
+    cursor: pointer;
+}
+
+.imagicaTicketTab {
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    overflow: auto;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+imagicaNavigation {
+    width: 100%;
+    background-color: #f00;
+    overflow: auto;
+    display: block;
+}
+
+.imagicaNavigation ul {
+    overflow: auto;
+    padding: 2px;
+    margin: 0px;
+    background-color: #f00;
+}
+
+    .imagicaNavigation ul li {
+        list-style: none;
+        float: left;
+        padding: 15px;
+        color: white;
+        font-weight: bold;
+        font-family: Verdana;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .imagicaNavigation ul .selectedLi {
+        list-style: none;
+        float: left;
+        padding: 15px;
+        color: white;
+        font-weight: bold;
+        font-family: Verdana;
+        font-size: 12px;
+        cursor: pointer;
+        background-color: white;
+    }
+
+        .imagicaNavigation ul .selectedLi a {
+            color: #f00;
+            font-weight: bold;
+            font-family: Verdana;
+            font-size: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+    .imagicaNavigation ul li a {
+        color: white;
+        font-weight: bold;
+        font-family: Verdana;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+
+.imagicaNavMenu {
+    width: 98%;
+    background-color: #f00;
+    overflow: auto;
+    padding: 5px;
+    display: none;
+}
+
+    .imagicaNavMenu span {
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1010px) {
+}
+
+@media (max-width: 750px) {
+    .imagicaNavigation {
+        width: 95%;
+        background-color: #f00;
+        overflow: auto;
+        display: none;
+    }
+
+        .imagicaNavigation ul li {
+            list-style: none;
+            float: none;
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            font-family: Verdana;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .imagicaNavigation ul .selectedLi {
+            list-style: none;
+            float: none;
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            font-family: Verdana;
+            font-size: 12px;
+            cursor: pointer;
+            background-color: white;
+        }
+
+    .imagicaNavMenu {
+        width: 95%;
+        background-color: #f00;
+        overflow: auto;
+        padding: 8px;
+        display: block;
+        cursor: pointer;
+    }
+
+        .imagicaNavMenu:after {
+            border-top: 7px solid white;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            content: "";
+            margin-top: 5px;
+            margin-left: 10px;
+            cursor: pointer;
+            float: right;
+        }
+
+    .imagicaTicketSelection tr td {
+        padding: 10px;
+        text-align: center;
+        border-left: 1px solid #CDCDCD;
+        float: left;
+        width: 95%;
+    }
+
+
+
+    #init table tr td {
+        float: left;
+        width: 83%;
+    }
+
+    .imagicaTdHead {
+        background-color: #E5E5E5;
+        text-align: center;
+        display: none;
+    }
+
+    .ticketFor {
+        display: block;
+        font-family: Verdana;
+        width: 100%;
+        font-size: 14px;
+        background-color: #CDCDCD;
+        color: black;
+        padding: 5px 0px;
+    }
+
+    .categorySection {
+        width: 85%;
+        padding: 30px;
+        background-color: rgb(242, 242, 242);
+        float: left;
+    }
+
+
+    .ticketSection {
+        width: 95%;
+        padding: 30px 10px;
+        float: left;
+    }
+
+    .bookingSection {
+        float: left;
+    }
+
+    .mainItem table tr td img {
+        display: none;
+    }
+
+    .packageItem_Selected {
+        width: 85%;
+    }
+
+    .packageItem {
+        width: 85%;
+    }
+}

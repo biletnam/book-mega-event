@@ -1,0 +1,18 @@
+1) When does advance booking open on Bookmyevent?
+The advance booking facility is directly controlled by the cinema. Whenever the cinema opens the show for advance booking, the show is automatically made available on Bookmyevent.
+2) Do you charge extra fees for a booking?
+Bookmyevent currently charges a convenience fee (per ticket) for a booking.
+3) Can I choose my seat at the cinema?
+Yes, this is one of the most important features we offer. You have the choice of selecting your seats at every step of the transaction.
+4) How many tickets can I book in one transaction?
+You are allowed a maximum of 10 tickets per transaction in each area category of the cinema screen.
+5) How can I confirm whether my tickets have been booked?
+When a booking is confirmed, an email is automatically sent to you with the booking details. If you so choose, an SMS can also be sent to your mobile phone. In the rare case that you do not receive the email or SMS, you can check for the booking details on the website, if you are a registered user. Alternately, call our helpdesk.
+6) I accidentally booked my tickets for today instead of tomorrow, can you change the tickets?
+No. It is not possible to replace or refund tickets once they have been confirmed.
+7) Can I change my seat numbers?
+No. It is not possible to change the seat numbers of a ticket once booked.
+8) Can I change the show time that I have booked for?
+No. It is not possible to change the show time once a ticket has been confirmed.
+9) Can we cancel or replace our tickets?
+No. As per government regulations, once a ticket has been paid for, it is deemed sold. It cannot now be replaced or cancelled.

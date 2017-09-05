@@ -1,0 +1,802 @@
+body {
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.BooknowTxt {
+    color:black;
+}
+
+.selectorder_div {
+    width: 450px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    margin-left: -225px;
+    background-color: white;
+    border: 2px solid #125388;
+    z-index: 100;
+    display: none;
+}
+
+.DataLoader {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.GameIconBox {
+    width: 22%;
+    float: left;
+    padding: 5px;
+    margin-left: 5px;
+    text-align: center;
+    min-width: 185px;
+}
+
+.gameIconDetails {
+    width: 100%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.gameIconTitle {
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title_child {
+    font-size: 16px;
+}
+
+
+.VenueAddress {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+.Cluehunt_P {
+    width: 96%;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.gamesOption {
+    margin-top: 50px;
+    z-index: 5;
+}
+
+.blocked {
+    border-radius: 5px;
+    padding: 2px;
+    color: #FF3F3F;
+    background-color: #FFF2F2;
+    border: 1px solid #FFDBDB;
+    font-size: 11px;
+    text-align: center;
+}
+
+.available {
+        border-radius: 5px;
+    padding: 2px;
+    color: #2B7BBE;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(15, 189, 60);
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell {
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+}
+
+.daySpan {
+    width: 92px;
+}
+
+.weekendcell {
+    background-color: #E6E6E6;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.rowhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #E6E6E6;
+    color: #000000;
+    border: 1px solid #DDDDDD;
+    font-weight: bold;
+}
+
+
+.proceed_btn {
+    padding: 6px;
+    font-size: 14px;
+    font-family: Verdana;
+    color: white;
+    background-color: #A30000;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ededed;
+}
+
+    .proceed_btn:hover {
+        padding: 6px;
+        font-size: 14px;
+        font-family: Verdana;
+        color: white;
+        background-color: rgb(214, 3, 3);
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ededed;
+    }
+
+.tableContent {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 793px;
+    margin-left: 110px;
+}
+
+    .tableContent table tr td:first-child {
+        position: absolute;
+        left: 0px;
+        border: 5px solid #E4E4E4;
+        padding: 14px 18px;
+    }
+
+.navigate_btn {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    left: 50%;
+    margin-left: 275px;
+    top: 10px;
+    padding: 5px;
+    background-color:rgb(43, 123, 190);
+    border-radius: 5px;
+    color: white;
+    z-index: 5;
+}
+
+.next_btn {
+    cursor: pointer;
+    font-style: normal;
+}
+
+    .next_btn:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+.prev_btn {
+    cursor: pointer;
+    font-style: normal;
+}
+
+    .prev_btn:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+.EventCalendarBox {
+    position: relative;
+    min-height: 560px;
+    margin-left: 20px;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 80px;
+    overflow:hidden;
+}
+
+
+#init .tableContent #mytable .columnhead {
+       text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #2B7BBE;
+    color: white;
+    border: 1px solid #236CA9;
+    font-style: normal;
+}
+
+#init .tableContent #mytable #FirstColumnHead {
+       padding: 15px 14px;
+    border: 5px solid #2B7BBE;
+    border-right: 6px solid #2B7BBE;
+}
+
+#init .tableContent #mytable .weekend {
+       background-color: #4AACFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #49A3EF;
+    font-style: normal;
+}
+
+
+#init1 .tableContent #mytable .columnhead {
+        text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #074880;
+    color: white;
+    border: 1px solid #053F71;
+    font-style: normal;
+}
+
+#init1 .tableContent #mytable #FirstColumnHead {
+         padding: 15px 14px;
+    border: 5px solid #074880;
+    border-right: 6px solid #074880;
+}
+
+#init1 .tableContent #mytable .weekend {
+   background-color: #2B7BBE;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: black;
+    border: 1px solid #1B67A7;
+    font-style: normal;
+}
+
+#initMystery .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #071f92;
+    color: white;
+    border: 1px solid #080671;
+    font-style: normal;
+}
+
+#initMystery .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #071f92;
+    border-right: 6px solid #071f92;
+}
+
+#initMystery .tableContent #mytable .weekend {
+    background-color: #0D37FF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #2D10E0;
+    font-style: normal;
+}
+
+
+
+#initPainting .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #096C01;
+    color: rgb(253, 253, 253);
+    border: 1px solid #064713;
+    font-style: normal;
+}
+
+#initPainting .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #096C01;
+    border-right: 6px solid #096C01;
+}
+
+#initPainting .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #189E0D;
+    color: white;
+    border: 1px solid #0B5C1C;
+    font-style: normal;
+}
+
+
+
+#initDiamondMaze .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #6e0393;
+    color: white;
+    border: 1px solid #9711F2;
+    font-style: normal;
+}
+
+#initDiamondMaze .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #6e0393;
+    border-right: 6px solid #6e0393;
+}
+
+#initDiamondMaze .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #C418FF;
+    color: white;
+    border: 1px solid #8C03E8;
+    font-style: normal;
+}
+
+#initPirate .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #5A5E5A;
+    color: white;
+    border: 1px solid #211F22;
+    font-style: normal;
+}
+
+#initPirate .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #616061;
+    border-right: 6px solid #5F5F5F;
+}
+
+#initPirate .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #151515;
+    color: white;
+    border: 1px solid #1D1C1D;
+    font-style: normal;
+}
+
+#initBank .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #867C4B;
+    color: white;
+    border: 1px solid #8E8D41;
+    font-style: normal;
+}
+
+#initBank .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #837D42;
+    border-right: 6px solid #847940;
+}
+
+#initBank .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #676319;
+    color: white;
+    border: 1px solid #595824;
+    font-style: normal;
+}
+/*
+    For kurla location of The Lock-up Mystery
+    */
+#initLockUpMysterycurla .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #0ABAF5;
+    color: white;
+    border: 1px solid #85D7F2;
+    font-style: normal;
+}
+
+#initLockUpMysterycurla .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #0ABAF5;
+    border-right: 6px solid #0ABAF5;
+}
+
+#initLockUpMysterycurla .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #7DDBFA;
+    color: black;
+    border: 1px solid #7DDBFA;
+    font-style: normal;
+}
+
+/*
+    For kurla location of The Terrorist Hideout
+    */
+#initTerroristHideout .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #FA9746;
+    color: white;
+    border: 1px solid #F7B177;
+    font-style: normal;
+}
+
+#initTerroristHideout .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #FA9746;
+    border-right: 6px solid #FA9746;
+}
+
+#initTerroristHideout .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #F2BC8F;
+    color: black;
+    border: 1px solid #F2BC8F;
+    font-style: normal;
+}
+
+/*
+    For kurla location of The Art Gallery
+    */
+
+#initArtGallery .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #F75CDB;
+    color: white;
+    border: 1px solid #F5B8EA;
+    font-style: normal;
+}
+
+#initArtGallery .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #F75CDB;
+    border-right: 6px solid #F75CDB;
+}
+
+#initArtGallery .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #F5B8EA;
+    color: black;
+    border: 1px solid #F5B8EA;
+    font-style: normal;
+}
+
+/*
+    For kurla location of The Missing Scientist
+    */
+
+#initMissingScientist .tableContent #mytable .columnhead {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #4CF5A6;
+    color: black;
+    border: 1px solid #9BF2CA;
+    font-style: normal;
+}
+
+#initMissingScientist .tableContent #mytable #FirstColumnHead {
+    padding: 15px 14px;
+    border: 5px solid #4CF5A6;
+    border-right: 6px solid #4CF5A6;
+}
+
+#initMissingScientist .tableContent #mytable .weekend {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #52E09E;
+    color: black;
+    border: 1px solid #52E09E;
+    font-style: normal;
+}
+
+.cluehunt_tab {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #2B7BBE;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #000000;
+    cursor: pointer;
+    background-color: #54A4E9;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+}
+
+.cluehunt_tab_selected {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #54A4E9;
+    border-top: 2px solid #2B7BBE;
+    border-bottom: none;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #023B6B;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.txtaddress {
+    float: right;
+    padding: 5px;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+
+.Menu_content {
+    width: 100%;
+    display: none;
+    clear: left;
+}
+
+.locationOption {
+    z-index: 5;
+    margin-left: 0px;
+}
+
+.LocationTab {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #51A1E4;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #3E95DC;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+}
+
+.LocationTab_selected {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-left: 3px;
+    border: 1px solid #454545;
+    border-top: 2px solid #035C57;
+    border-bottom: none;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    display: inline;
+    color: #363636;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.locationTabBox {
+    background-color: rgb(43, 123, 190);
+    margin-top: -10px;
+    overflow: auto;
+}
+
+.fantasyNav {
+    position: relative;
+    margin-top: -40px;
+    padding: 5px;
+    display: block;
+    color: rgb(255, 240, 210);
+    cursor: pointer;
+    float: right;
+}
+
+    .fantasyNav:hover {
+        color: white;
+    }
+
+.menuitems_selected {
+    font-size: 14px;
+    font-family: Verdana;
+    border-radius: 5px;
+    background-color: rgb(106, 177, 239);
+    color: white;
+    padding: 5px;
+    max-width: 100px;
+    text-align: center;
+    font-weight: bold;
+    cursor: default;
+}
+
+.menuitems {
+    font-size: 14px;
+    font-family: Verdana;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 100px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+.fantasyHeader {
+    width: 100%;
+    background-color: #84B7B5;
+}
+
+.cluehuntLogo {
+    margin: 0;
+    width: 172px;
+}
+
+.cluehuntlogo_txt {
+    margin-left: 173px;
+    margin-top: -180px;
+    display: block;
+    width: 292px;
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1010px) {
+}
+
+@media (max-width: 750px) {
+    .cluehuntLogo {
+        margin: 0 auto;
+        width: 108px;
+    }
+
+        .cluehuntLogo img {
+            width: 108px;
+        }
+
+    .cluehuntlogo_txt {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .fantacyHeader {
+        width: 100%;
+        background-color: #84B7B5;
+    }
+
+    .fantasyNav {
+        position: relative;
+        margin-top: -40px;
+        padding: 5px;
+        display: block;
+        color: rgb(255, 240, 210);
+        cursor: pointer;
+        float: right;
+    }
+
+    .locationTabBox {
+        background-color: rgb(43, 123, 190);
+        margin-top: -10px;
+        overflow: auto;
+    }
+
+    .locationOption {
+        z-index: 5;
+        margin-left: 0px;
+    }
+
+    .gamesOption {
+        margin-top: 20px;
+        z-index: 5;
+    }
+
+    .EventCalendarBox {
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        font-family: Verdana;
+        font-size: 15px;
+        font-style: italic;
+        text-align: justify;
+        margin-top: 80px;
+    }
+
+    .cluehunt_tab {
+        font-size: 15px;
+        font-family: Verdana;
+        margin-top: 0px;
+        margin-left: 3px;
+        border: 1px solid #54A4E9;
+        padding: 5px;
+        float: left;
+        list-style: none;
+        display: inline;
+        color: #FFFFFF;
+        cursor: pointer;
+        background-color: #DAAB46;
+        border-radius: 5px 5px 0px 0px;
+        font-weight: bold;
+        width: 95%;
+    }
+
+    .cluehunt_tab_selected {
+        font-size: 15px;
+        font-family: Verdana;
+        margin-top: 0px;
+        margin-left: 3px;
+        border: 1px solid #54A4E9;
+        border-top: 2px solid #2B7BBE;
+        border-bottom: none;
+        padding: 5px;
+        float: left;
+        list-style: none;
+        display: inline;
+        color: #363636;
+        cursor: pointer;
+        background-color: #fff;
+        font-weight: bold;
+        border-radius: 5px 5px 0px 0px;
+        width: 95%;
+    }
+
+    .navigate_btn {
+           position: absolute;
+    width: 150px;
+    text-align: center;
+    left: 0%;
+    margin-left: 5px;
+    top: 10px;
+    padding: 5px;
+    background-color: rgb(43, 123, 190);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    z-index: 5;
+    }
+
+    .Cluehunt_P {
+        width: 90%;
+        text-align: justify;
+        font-family: verdana;
+        font-size: 13px;
+        margin: 80px 20px;
+    }
+
+    .GameIconBox {
+        width: 95%;
+        float: left;
+        padding: 5px;
+        text-align: center;
+    }
+}
